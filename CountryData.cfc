@@ -10,9 +10,7 @@
 			FROM Countries
 			<cfif IsDefined("Arguments.CountryName")>
 				WHERE
-					CountryName LIKE <cfqueryparam cfsqltype="cf_sql_varchar" value="#Arguments.CountryName#%">
-			</cfif>
-			ORDER BY isoCountryCode
+					C
 		</cfquery>
 
 		<cfreturn selCountries>
