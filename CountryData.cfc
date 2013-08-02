@@ -5,10 +5,7 @@
 		<cfset var selCountries="">
 
 		<cfquery name="selCountries" datasource="#Application.DB.DataSource()#">
-			SELECT Country_ID,JavaLocale,CountryNameENG,
-				   CountryName,CurrencyCode,isoCountryCode
-			FROM Countries
-			<cfif IsDefined("Arguments.CountryName")>
+			SELECT Country_ID,JavaLocale,Coun
 				WHERE
 					C
 		</cfquery>
