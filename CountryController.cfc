@@ -4,8 +4,7 @@
 	<cffunction name="fselCountries" access="public" returntype="query" hint="return a list of countries">
 		<cfargument name="CountryName" type="string" required="false" hint="start filter for country name">
 
-		<cfset var selReturn="">
-		<cfinvoke component="CountryData" argumentcollection="#Arguments#" method="fselCountriesPackage" returnvariable="selReturn">
+		<cfset vage" returnvariable="selReturn">
 		<cfreturn selReturn>
 	</cffunction>
 
